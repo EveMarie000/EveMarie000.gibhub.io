@@ -1,16 +1,41 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="ro">
 <head>
-<title> website </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prima mea pagina Web</title>
+    <style>
+        body {
+            background-color: #00FFFF; /* Turcoaz */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #00FFFF;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+        .italic-text {
+            font-style: italic;
+        }
+    </style>
 </head>
-
-<body BGCOLOR="cyan">
-
-<h1> Prima mea pagina realizata in 07.11.2024</h1>
-
-<p>Curand am sa devin <strong>expert</strong> HTML </p>
-<p>
-Pagina realizata de :<cite><b><i> Popescu Eva-Maria </i></b></cite>
+<body>
+    <div class="container">
+        <h1>Prima mea pagina Web realizata in 07.11.2024</h1>
+        <p>Curand am sa devin un <span class="bold-text">expert</span> HTML</p>
+        <p>Pagina realizata de: <span class="italic-text">N. Prenume</span></p>
+    </div>
 </body>
-
-<html>
+</html>
